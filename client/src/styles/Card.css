@@ -1,0 +1,42 @@
+.Card {
+  position: relative;
+  cursor: pointer;
+  background: #378CE7;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #378CE7;
+  font-size: 15px;
+  overflow-wrap: break-word;
+  min-height: 18px;
+  color : #DFF5FF
+}
+
+.Card:hover {
+  background: #DFF5FF;
+  color:#378CE7
+}
+
+.Card-Icons {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.Card-Icon {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin: 1px;
+  background: #378CE7;
+  color: #DFF5FF;
+  opacity: 0.9;
+}
+
